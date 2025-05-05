@@ -12,14 +12,14 @@ setup(
     url='https://github.com/archiebhl/PyOverlayKit',  
     packages=find_packages(),
     install_requires=[
-        'PyQt6', 
+        'pyqtgraph', 
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6', 
+    python_requires='>=3.10.6', 
     project_urls={
         'Repository': 'https://github.com/archiebhl/PyOverlayKit',
     },

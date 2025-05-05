@@ -1,8 +1,5 @@
 import ctypes
-from ctypes import wintypes
 from overlay import Overlay
-from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QWindow
 
 class WindowsOverlay(Overlay):
     def __init__(self):

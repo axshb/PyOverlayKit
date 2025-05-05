@@ -1,8 +1,9 @@
-from PyQt6.QtCore import Qt, QRect, QPoint
-from PyQt6.QtGui import QPainter, QColor, QMouseEvent
-from PyQt6.QtWidgets import *
+from pyqtgraph.Qt.QtCore import Qt, QRect
+from pyqtgraph.Qt.QtGui import QPainter, QColor, QMouseEvent
+from pyqtgraph.Qt.QtWidgets import *
+from pyqtgraph.Qt import QtWidgets
 
-class Overlay(QWidget):
+class Overlay(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowFlag(Qt.WindowType.Tool, True)
@@ -21,7 +22,7 @@ class Overlay(QWidget):
         self._drag_start_position = None
 
         # Close Button
-        self.close_button = QPushButton("X", self)
+        self.close_button = QtWidgets.QPushButton("X", self)
         self.close_button.setFixedSize(40, 20)
         self.close_button.clicked.connect(self.close)
         self.close_button.setStyleSheet("""

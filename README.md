@@ -1,6 +1,6 @@
 # PyOverlayKit
 
-This package provides a customizable overlay for PyQt applications, allowing you to create always-on-top windows with adjustable background colors, transparency, and layouts. Specifically, this package allows these overlays to stay on top of full-screened applications.
+This package provides a customizable overlay for PySide6/PyQt6 applications, allowing you to create always-on-top windows with adjustable background colors, transparency, and layouts. Specifically, this package allows these overlays to stay on top of full-screened applications.
 
 ## Installation
 
@@ -10,9 +10,9 @@ You can install the package using pip:
 
 ## Example Usage
 ```
-from PyQt6.QtWidgets import QApplication, QLabel, QPushButton, QGridLayout
+from PySide6.QtWidgets import QApplication, QLabel, QPushButton, QGridLayout
+from PySide6.QtGui import QColor
 from PyOverlayKit.overlay import Overlay
-from PyQt6.QtGui import QColor
 
 app = QApplication([])
 

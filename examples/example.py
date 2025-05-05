@@ -1,7 +1,9 @@
-from PyQt6.QtWidgets import (
-    QApplication, QLabel, QPushButton, QGridLayout
-)
-from PyQt6.QtGui import QColor
+from PySide6.QtWidgets import QApplication, QLabel, QPushButton, QGridLayout
+from PySide6.QtGui import QColor
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from PyOverlayKit.overlay import Overlay
 
 if __name__ == "__main__":
