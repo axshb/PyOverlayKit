@@ -3,3 +3,5 @@ venv/
 PyOverlayKit.egg-info/
 dist/
 build/
+
+notes.txt

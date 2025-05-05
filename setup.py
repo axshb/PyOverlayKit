@@ -5,8 +5,8 @@ long_description = (Path(__file__).parent / 'README.md').read_text()
 
 setup(
     name='PyOverlayKit',
-    version='0.2.0',
-    description='A PyQt package for creating customizable always-on-top overlays, including when applications are full-screen.',
+    version='0.3.0',
+    description='Always-on-top overlays for PyQt and PySide, including when applications are full-screen.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/archiebhl/PyOverlayKit',  
