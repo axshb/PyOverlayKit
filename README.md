@@ -3,7 +3,7 @@
   <img src="https://socket.dev/api/badge/pypi/package/PyOverlayKit/0.2.0?artifact_id=tar-gz" alt="Socket">
   <img src="https://img.shields.io/badge/Platform-Windows-blue.svg" alt="Platform">
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome">
-  <img src="https://img.shields.io/github/last-commit/archiebhl/hwinsight.svg" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/axshb/hwinsight.svg" alt="Last Commit">
 </p>
 
 
