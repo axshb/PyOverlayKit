@@ -9,7 +9,7 @@ setup(
     description='Always-on-top overlays for PyQt and PySide, including when applications are full-screen.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/archiebhl/PyOverlayKit',  
+    url='https://github.com/axshb/PyOverlayKit',  
     packages=find_packages(),
     install_requires=[
         'pyqtgraph', 
